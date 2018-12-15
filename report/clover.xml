@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1544869059">
-  <project timestamp="1544869059">
+<coverage generated="1544882548">
+  <project timestamp="1544882548">
     <package name="KEINOS\SCRUTINIZER">
-      <file name="./src/php7/HelloWorld.php">
+      <file name="/Volumes/Macintosh_SD/Users/admin/GitHub/Practice_ScrutinizerCI/src/php7/HelloWorld.php">
         <class name="KEINOS\SCRUTINIZER\HelloWorld" namespace="KEINOS\SCRUTINIZER">
           <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
         </class>
