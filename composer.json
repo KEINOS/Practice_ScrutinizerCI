@@ -1,0 +1,20 @@
+{
+    "name": "keinos/test_scrutinizer",
+    "description": "Sample app to see Scrutinizer work",
+    "type": "project",
+    "authors": [
+        {
+            "name": "KEINOS",
+            "email": "github@keinos.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KEINOS\\SCRUTINIZER\\" : "src/php7"
+        }
+    }
+}
