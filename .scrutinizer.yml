@@ -3,12 +3,12 @@ build:
     analysis:
       tests:
         override:
-          - php-scrutinizer-run
+          - php-scrutinizer-run --sub-project-dir=src/php7/
           - phpcs-run
     coverage:
       tests:
         override:
-          - command: ./run-my-test
+          - command: ./run-test-php
             coverage:
               file: repost/clover.xml
               format: clover
