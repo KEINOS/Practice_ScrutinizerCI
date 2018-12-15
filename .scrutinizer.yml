@@ -5,6 +5,13 @@ build:
         override:
           - php-scrutinizer-run
           - phpcs-run
+    coverage:
+      tests:
+        override:
+          - command: ./run-my-test
+            coverage:
+              file: repost/clover.xml
+              format: clover
 checks:
     php:
         fix_php_opening_tag: false
