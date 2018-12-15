@@ -10,7 +10,7 @@ build:
         override:
           - command: ./run-test-php
             coverage:
-              file: repost/clover.xml
+              file: report/clover.xml
               format: clover
 checks:
     php:
